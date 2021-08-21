@@ -1,0 +1,106 @@
+/* Header & Navbar Styling */
+.header {
+    min-height: 10vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 2rem;
+  }
+
+.navbar {
+    padding-right: 8rem;
+    padding-left: 8rem;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo, .navbar .profile {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .navbar .logo img {
+    width: 75px;
+  }
+  
+  .navbar .profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  /* Profile Styling */
+  .profile-image {
+    width: 240px;
+    height: 240px;
+    user-select: none;
+    pointer-events: none;
+    overflow: hidden;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-image: initial;
+  }
+  
+  .profile-image img {
+    width: 100%;
+  }
+  
+  .proffesional-skills li {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .proffesional-skills li span {
+    display: block;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  
+  .proffesional-skills li meter {
+    width: 100%;
+    height: 40px;
+  }
+  
+  /* Contact Styling */
+  input, textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .89rem;
+    margin-right: .5rem;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 1.4rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding: .5rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.3);
+    background: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons-list {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* General Styling */
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
