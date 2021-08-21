@@ -29,7 +29,7 @@ contactForm.addEventListener("submit", (e) => {
 
   let xhr = new XMLHttpRequest();
   xhr.open("POST", "/");
-  xhr.setRequestHeader("content-type", "application/json");
+  xhr.setRequestHeader("content-type", "application/json", "https://resume-contact-form.herokuapp.com/");
   xhr.onload = function () {
     console.log(xhr.responseText);
 
